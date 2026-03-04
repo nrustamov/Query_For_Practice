@@ -1,0 +1,251 @@
+﻿1,"Customers cədvəli üzrə active, inactive və blocked olan müştərinin sayları dəqiqləşdirin",1,NULL,0,2026-03-04 15:07:18.677
+2,Customers -- Ən böyük yaşa malik müştəri tap.,1,NULL,0,2026-03-04 15:08:19.133
+3,Customers -- Ən kişik yaşa malik müştəri tap.,1,NULL,0,2026-03-04 15:08:41.660
+4,"Customers -- 25- yaşa qədər. 25–40, 40–60 və 60-yaşdan yuxarı müştəriləri qruplaşdır",1,NULL,0,2026-03-04 15:09:14.700
+5,Customers -- müştərinin doğum tarixi və qeydiyyat tarixləri arasında uyğunluğu yoxla. səhvlik varmı? registrasiya tarixi > doğum tarixi-dirsə səhv var,1,NULL,0,2026-03-04 15:11:16.450
+6,Customers -- qeydiyyat zamanı necə müştəri 18 yaşdan aşağı olub?,1,NULL,0,2026-03-04 15:11:28.977
+7,Customers -- müştəri kişi və qadınlar olaraq 2 qrupa böl. Bunu necə edəcəyik? Məsələn soyadının sonu -ova və ya -eva dırsa qadındır.,1,NULL,0,2026-03-04 15:11:40.190
+8,Customers -- eyni müştəri iki dəfə təkrarlanıbmı? (notional_id sütununa görə yoxla),1,NULL,0,2026-03-04 15:11:53.537
+9,Customers -- şəhər və rayonlar üzrə müştərilər necə paylanıb?,1,NULL,0,2026-03-04 15:12:05.957
+10,Customers -- hansı ildə nə qədər müştəri müraciəti olub?,1,NULL,0,2026-03-04 15:12:49.693
+11,Accounts -- Neçə aktiv müştəri var?,1,NULL,0,2026-03-04 15:15:36.420
+12,Accounts -- Statusa görə qruplaşdır,1,NULL,0,2026-03-04 15:15:54.043
+13,"Accounts -- Ən böyük hesab qalığına malik müştəri. Valyutalar üzrə ayrı-ayrılıqda
+",1,NULL,0,2026-03-04 15:16:33.497
+14,"Accounts -- Ən kiçik hesab qalığına malik müştəri. Valyutalar üzrə ayrı-ayrılıqda
+",1,NULL,0,2026-03-04 15:16:39.057
+15,"Accounts -- Hər müştərinin neçə hesabı var?
+",1,NULL,0,2026-03-04 15:17:41.757
+16,"Accounts -- Birdən çox hesabı olan müştəri sayı tap.
+",1,NULL,0,2026-03-04 15:17:43.510
+17,"Accounts -- Ən böyük hesab qalığına (bir neçə hesab varsa toplanmalı) malik müştəri. Valyutalar üzrə ayrı-ayrılıqda
+",1,NULL,0,2026-03-04 15:17:45.287
+18,"Accounts -- Ən kiçik hesab qalığına (bir neçə hesab varsa toplanmalı) malik müştəri. Valyutalar üzrə ayrı-ayrılıqda
+",1,NULL,0,2026-03-04 15:17:47.850
+19,"Accounts -- İlk müştəri kim olub? Valyutalar üzrə ayrı-ayrılıqda
+",1,NULL,0,2026-03-04 15:17:49.680
+20,"Accounts -- Son müştəri kim olub? Valyutalar üzrə ayrı-ayrılıqda
+",1,NULL,0,2026-03-04 15:17:51.350
+21,"Accounts -- Valyutalar üzrə ayrı-ayrılıqda ümumilikdə nə qədər hesab qalığı var?
+",1,NULL,0,2026-03-04 15:17:54.407
+22,"Accounts -- Aktiv statusa malik olan müştərilər üzrə bütün valyutalar ayrı ayrılıqda ümumilikdə nə qədər hesab qalığı var?
+",1,NULL,0,2026-03-04 15:19:55.717
+23,"Accounts -- Ortalama hər müştərinin nə qədər pulu var. Valyutalar üzrə ayrı-ayrılıqda.
+",1,NULL,0,2026-03-04 15:20:10.110
+24,"Accounts -- İllər üzrə nə qədər müştəri müraciəti olub
+",1,NULL,0,2026-03-04 15:20:32.780
+25,Cards -- Neçə kredit və neçə debet kart var?,1,NULL,0,2026-03-04 15:21:00.220
+26,"Cards -- Platinum, classic və gold kartların sayı hesablayın
+",1,NULL,0,2026-03-04 15:21:06.010
+27,"Cards -- Eyni zamanda yuxarıdakılardan neçəsi kredit, neçəsi debetdir?
+",1,NULL,0,2026-03-04 15:21:22.310
+28,"Cards -- Valyutalara görə hesabla neçə kart var. Neçəsi debet, neçəsi kredit kartdır? Neçəsi manat,gold və debetdir?
+",1,NULL,0,2026-03-04 15:21:23.773
+29,"Cards -- Kartların statuslara görə sayılarını tap. Kredit kartlar daha çox aktivdir yoxsa debet kartlar?
+",1,NULL,0,2026-03-04 15:21:24.827
+30,"Cards -- Blokda olan neçəsi platinum USD kredit-dir?
+",1,NULL,0,2026-03-04 15:21:26.067
+31,"Cards -- Ən birinci açılan kart kimə məxsusdur?
+",1,NULL,0,2026-03-04 15:21:27.160
+32,"Cards -- Ən sonuncu kart kimə məxsusdur?
+",1,NULL,0,2026-03-04 15:21:28.153
+33,"Cards -- Ən uzun müddətli kart ilə ən qısa müddətli kartı tap
+",1,NULL,0,2026-03-04 15:21:29.090
+34,"Cards -- 2-dən artıq kartı olan müştərilərin sayını tap
+",1,NULL,0,2026-03-04 15:21:30.300
+35,"Cards -- 3-dənə və daha çox aktiv kartı olan müştəri varmı? neçə nəfərdir?
+
+
+
+
+",1,NULL,0,2026-03-04 15:21:31.330
+36,"Currency_Rates -- Neçə valyutamız var?
+",1,NULL,0,2026-03-04 15:24:38.870
+37,"Currency_Rates -- USD-EUR neçə dəfə konvertasiya olub?
+",1,NULL,0,2026-03-04 15:24:40.233
+38,"Currency_Rates -- 06.26.2024-də hansı əməliyyatlar olub?
+",1,NULL,0,2026-03-04 15:24:41.257
+39,"Currency_Rates -- USD-AZN nə vaxt 1.56 olub?
+",1,NULL,0,2026-03-04 15:24:42.183
+40,"Currency_Rates -- USD-AZN nə vaxt ən yüksək və ən kiçik kurs olub?
+",1,NULL,0,2026-03-04 15:24:43.063
+41,"Currency_Rates -- Səhv konventasiyarı tap. AZN-AZN və s.
+",1,NULL,0,2026-03-04 15:24:45.427
+42,"Customer_Service -- Ən çox kredit verən əməkdaş
+",1,NULL,0,2026-03-04 15:25:05.843
+43,"Customer_Service -- Ən çox əməliyyat aparan əməkdaş
+",1,NULL,0,2026-03-04 15:25:07.090
+44,"Customer_Service -- 2024-də ən çox kredit verən əməkdaş 2023-də neçə dənə verib?
+",1,NULL,0,2026-03-04 15:25:08.027
+45,"Customer_Service -- Ən çox eyni müştəriyə xidmət göstərmiş əməkdaş
+",1,NULL,0,2026-03-04 15:25:08.977
+46,"Customer_Service -- 2025-də ən çox hesab açmış müştəri kimdir?
+",1,NULL,0,2026-03-04 15:25:10.520
+47,"Deposits -- Orta əmanət məbləği illər üzrə
+",1,NULL,0,2026-03-04 15:25:30.843
+48,"Deposits -- Orta faiz dərəcəsi illər üzrə
+",1,NULL,0,2026-03-04 15:25:32.293
+49,"Deposits -- Orta müddət illər üzrə
+",1,NULL,0,2026-03-04 15:25:33.090
+50,"Deposits -- Ən çox hansı aralıqda əmanətlər var? 0–12,13–24,25–36 və 36+",1,NULL,0,2026-03-04 15:25:33.953
+51,"Deposits -- Ən çox hansı faiz aralığında əmanətlər var? 0–8, 9–11, 12+
+",1,NULL,0,2026-03-04 15:25:34.793
+52,"Deposits -- 12% dən yuxarı olan əmanətlərin orta çəkisi
+",1,NULL,0,2026-03-04 15:25:35.647
+53,"Deposits -- Ən çox depoziti olan müştərinin neçə depoziti var?
+",1,NULL,0,2026-03-04 15:25:36.753
+54,"Loans -- Orta kredit məbləği, müddəti və faiz dərəcəsi",1,NULL,0,2026-03-04 15:25:51.717
+55,"Loans -- Müddət aralığına düşən orta kredit məbləği 0–12, 13–24, 25–48 və 49+
+",1,NULL,0,2026-03-04 15:25:52.840
+56,"Loans -- İllər üzrə orta kredit faizi və orta kredit məbləği
+",1,NULL,0,2026-03-04 15:25:53.713
+57,"Loans -- 2-dən artıq krediti olan müştəri varmı?
+",1,NULL,0,2026-03-04 15:25:54.510
+58,"Loans -- Gecikmədə olan kreditlər (əsas məbləğ və qalıq məbləği müqaisə et)
+",1,NULL,0,2026-03-04 15:25:55.570
+59,"Transactions -- Transaction növünü qeyd et. Hesab azalıbsa məxaric olub, artıbsa mədaxil
+",1,NULL,0,2026-03-04 15:26:11.317
+60,"Transactions -- Ən çox hansı valyutada hesab dəyişib?
+",1,NULL,0,2026-03-04 15:26:12.370
+61,"Transactions -- Valyutalar üzrə nə qədər artıb və ya azalıb?
+
+
+
+
+",1,NULL,0,2026-03-04 15:26:13.587
+62,"Kredit portfeli çıxart. Ad, soyad, məbləğ, tarix və s
+",2,NULL,0,2026-03-04 15:34:24.043
+63,"Ən böyük krediti olan müştəri
+",2,NULL,0,2026-03-04 15:35:01.483
+64,"İlk kredit götürən müştərilər
+",2,NULL,0,2026-03-04 15:35:15.180
+65,"İlk kredit götürən müştərilər
+",2,NULL,0,2026-03-04 15:35:17.230
+66,"2 krediti olan müştərilər
+",2,NULL,0,2026-03-04 15:35:34.753
+67,"13 aydan qısa müddətə kredit götürən müştərilər
+",2,NULL,0,2026-03-04 15:35:45.570
+68,"24 aydan uzun, lakin 20% dən aşağı olan kredit portfeli
+",2,NULL,0,2026-03-04 15:35:59.500
+69,"Gecikmədə olan portfel (ilkin məbləğ < qalıb məbləğ).
+",2,NULL,0,2026-03-04 15:36:02.697
+70,"Aylıq ödənişləri 500 AZN-dən aşağı olan 2 və daha çox kredit götürənlər
+",2,NULL,0,2026-03-04 15:36:03.263
+71,"Krediti olmayan müştərilər.
+",2,NULL,0,2026-03-04 15:36:03.580
+72,"2025-ci ildə verilən ümumi kredit məbləği
+",2,NULL,0,2026-03-04 15:36:03.920
+73,"illər üzrə verilən kredit məbləği
+",2,NULL,0,2026-03-04 15:36:04.397
+74,"Depozit portfeli çıxart
+",2,NULL,0,2026-03-04 15:36:05.067
+75,"Ən böyük depoziti olan müştəri
+",2,NULL,0,2026-03-04 15:36:05.347
+76,"2023-də depozit qoyanlar
+",2,NULL,0,2026-03-04 15:36:05.667
+77,"İlk və son depozit qoyan müştəri
+",2,NULL,0,2026-03-04 15:36:06.113
+78,"2 və daha çox depoziti olan müştəri
+",2,NULL,0,2026-03-04 15:36:06.417
+79,"Ən kiçik depoziti olan 10 müştəri
+",2,NULL,0,2026-03-04 15:36:06.760
+80,"Həm kredit, həm də depoziti olan müştərilər
+",2,NULL,0,2026-03-04 15:36:07.220
+81,"36 aydan yuxarı, 10 faizdən aşağı depoziti olan müştərilər
+",2,NULL,0,2026-03-04 15:36:07.530
+82,"25000-dən yuxarı depoziti olan müştərilər
+",2,NULL,0,2026-03-04 15:36:07.857
+83,"Depoziti olub, kredit gecikmədə olan müştərilər
+",2,NULL,0,2026-03-04 15:36:08.240
+84,"Depozit olmayan müştərilər
+",2,NULL,0,2026-03-04 15:36:08.560
+85,"Kart portfeli.
+",2,NULL,0,2026-03-04 15:36:08.880
+86,"2 və daha çox kart olan müştərilər
+",2,NULL,0,2026-03-04 15:36:09.503
+87,"AZN, gold və active kart sahibləri
+",2,NULL,0,2026-03-04 15:36:09.923
+88,"2023-də kart götürən və blok olan kartlar
+",2,NULL,0,2026-03-04 15:36:10.570
+89,"Həm kredit, həm depozit, həm də cartı olan müştərilər
+",2,NULL,0,2026-03-04 15:36:10.900
+90,"Gold kartı olub, kredit gecikədə olan müştərilər
+",2,NULL,0,2026-03-04 15:36:11.250
+91,"USD kartı olub kredit götürənlərin sayı çoxdur, yoxsa AZN kartı olub kredit götürənlər?
+",2,NULL,0,2026-03-04 15:36:11.590
+92,"2024-də həm kart, həm depozit, həm də kredit götürənlər
+",2,NULL,0,2026-03-04 15:36:11.947
+93,"kart balansından az kredit götürənlər
+",2,NULL,0,2026-03-04 15:36:12.290
+94,"kart olub depoziti olmayanlar
+",2,NULL,0,2026-03-04 15:36:12.607
+95,"kart olmayan müştərilər
+",2,NULL,0,2026-03-04 15:36:12.973
+96,"Exchange edən müştərilər
+",2,NULL,0,2026-03-04 15:36:13.687
+97,"ən çox exchange etmiş 10 müştəri
+",2,NULL,0,2026-03-04 15:36:13.983
+98,"Krediti olub, exchange etmiş müştərilər
+",2,NULL,0,2026-03-04 15:36:14.617
+99,"2025 də exchange və depozit qoymuş müştərilər
+",2,NULL,0,2026-03-04 15:36:14.990
+100,"exchange üzrə əməliyyat aparmamış müştərilər
+",2,NULL,0,2026-03-04 15:36:15.310
+101,"exchange AZN-USD etmiş müştərilər
+",2,NULL,0,2026-03-04 15:36:15.653
+102,"exchange həm USD-EUR, həm də EUR-USD etmiş müştərilər
+",2,NULL,0,2026-03-04 15:36:15.990
+103,customer_Service -- 2024-sə kredit götürmüş müştərilər,2,NULL,0,2026-03-04 15:36:16.320
+104,customer_Service -- 2 və daha çox hesab açımış müştərilər,2,NULL,0,2026-03-04 15:36:16.643
+105,AZN üzrə transaction etmiş müştərilər,2,NULL,0,2026-03-04 15:36:16.930
+106,"Transaction -- ən çox mədaxil etmiş 5 müştəri
+",2,NULL,0,2026-03-04 15:36:17.243
+107,Transaction -- 2022-də USD üzrə ən çox məxaric etmiş 5 müştəri,2,NULL,0,2026-03-04 15:36:17.940
+108,Transaction -- hesabın möhkəmləndirilməsi təyinatı ilə məxaric etmiş müşt,2,NULL,0,2026-03-04 15:36:18.553
+109,Employees -- Ən çox kredit vermiş əməkdaş,2,NULL,0,2026-03-04 15:36:19.130
+110,"Employees -- ən çox depozit qəbul etmiş əməkdaş
+",2,NULL,0,2026-03-04 15:36:19.433
+111,"Employees -- 2025-də ən çox əməliyyat aparmış 2 əməkdaş
+",2,NULL,0,2026-03-04 15:36:20.000
+112,Employees -- İşçilər üzrə ayrı ayrılıqda neçə kredit verib?,2,NULL,0,2026-03-04 15:36:20.310
+113,Branches -- filiallar üzrı neçə kredit verilib?,2,NULL,0,2026-03-04 15:36:25.657
+114,"Branches -- 2023-d filiallar neçə depozit qəbul edib?
+",2,NULL,0,2026-03-04 15:43:23.480
+115,"Branches -- ən çox kart verən filial?
+",2,NULL,0,2026-03-04 15:43:25.190
+116,"Account -- hesab üzrə portfel
+",2,NULL,0,2026-03-04 15:43:50.193
+117,"Account -- hesab olmayanlar
+",2,NULL,0,2026-03-04 15:43:59.203
+118,"Account -- 2 və daha çox hesab olanlar
+",2,NULL,0,2026-03-04 15:44:00.440
+119,Account -- AZN və active hesab sahibləri,2,NULL,0,2026-03-04 15:44:01.570
+120,"Account -- 2023-də hesab açıb və blok olan hesablar
+",2,NULL,0,2026-03-04 15:44:02.560
+121,"Account -- Həm kredit, həm depozit, həm də hesaba malik olan müştərilər
+",2,NULL,0,2026-03-04 15:44:03.533
+122,"Account -- hesab olub, kredit gecikədə olan müştərilər
+",2,NULL,0,2026-03-04 15:44:04.430
+123,"Account -- USD hesabı olub kredit götürənlərin sayı çoxdur, yoxsa AZN hesabı olub kredit götürənlər?
+",2,NULL,0,2026-03-04 15:44:05.260
+124,"Account -- 2024-də həm hesab açıb, həm depozit, həm də kredit götürənlər
+",2,NULL,0,2026-03-04 15:44:05.983
+125,"Account -- cari hesab balansından az kredit götürənlər
+",2,NULL,0,2026-03-04 15:44:08.160
+126,"Account -- hesab olub depoziti olmayanlar
+",2,NULL,0,2026-03-04 15:44:09.047
+127,"Account -- cari hesabı olmayan müştərilər
+",2,NULL,0,2026-03-04 15:44:09.913
+128,"Hər müştərinin depoziti kreditdən çıx və mənfi qalıqlar kimdədirsə göstər
+",3,NULL,0,2026-03-04 15:47:55.050
+129,"Son ilə kredit götürüb, depoziti olmayan müştərilər
+",3,NULL,0,2026-03-04 15:51:01.033
+130,"həm kredit, həm də depozit olmayan müştərilər
+",3,NULL,0,2026-03-04 15:51:06.050
+131,"son ildə nə kredit, nə də depozit qoymayan müştərilər
+",3,NULL,0,2026-03-04 15:51:15.943
+132,"hər müştərnin ayrı ayrı valyutalarda toplan vəsaitləri ilə cəmi kredit qalıq məbləği göstər
+",3,NULL,0,2026-03-04 15:52:02.680
+133,"7. heç bir əməliyyatı olmayan müştəriləri göstər
+
+",3,NULL,0,2026-03-04 15:52:15.450
